@@ -28,6 +28,7 @@ useEffect(() => {
     }, 1000)
 
     return () => clearTimeout(timeout);
+    // eslint-disable-next-line
 }, [html, css, js])
 
     return(

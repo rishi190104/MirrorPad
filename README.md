@@ -1,70 +1,57 @@
-# Getting Started with Create React App
+# Mirror Pad
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![Logo](./src/images/MirrorPad.png)
 
-## Available Scripts
+Welcome to the **Mirror Pad** This is a basic Real Time Code Editor in which user can write and test code for **HTML, CSS & JAVASCRIPT**
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## 😎 Live Demo
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+**Visit:** 
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+## 🚀 Features
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **Preview Pane-** When the user write's the code the code mirror(package used to render the code) render the output for the code simultaneously below in the preview pane within 1 second.
 
-### `npm run build`
+- **Local Storage-** The code written by the user is stored in the local storage, so if the user by mistaklely refresh the website then also the code is remains there itself.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- **Line Numbering-** Display line numbers for better code navigation.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 🛠️ Tech Stack
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- React JS
+- Material UI
 
-### `npm run eject`
+## ⚙️ Installation 
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+**Follow these steps to set up the project locally:**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+1. Clone this repository:
+```bash
+git clone https://github.com/rishi190104/MirrorPad.git 
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+2. Navigate to the project directory:
+```bash
+cd MirrorPad
+```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+3. Install Dependencies:
+```bash
+npm install
+```
+4. Start the development server:
+```bash
+npm run start
+```
 
-## Learn More
+---
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## 📬 Contact
+For questions, feedback, or support, feel free to reach out:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+**GitHub:** rishi190104
+**Email:** rs9911777@gmail.com
